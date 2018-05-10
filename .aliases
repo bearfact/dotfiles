@@ -17,6 +17,8 @@ alias g="git"
 alias gs="git status"
 alias gcom="git commit -m"
 alias gaa="git add -A"
+alias gco="git commit"
+alias gch="git checkout"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
